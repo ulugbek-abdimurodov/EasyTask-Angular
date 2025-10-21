@@ -50,4 +50,8 @@ export class TasksComponent {
   onStartAddTask() {
     this.isAddingTask = true;
   }
+
+  onCacnelAddTask() {
+    this.isAddingTask = false;
+  }
 }
